@@ -1,0 +1,16 @@
+// Using var, let, and const
+var name = "Alice";
+let age = 25;
+const country = "India";
+
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Country:", country);
+
+// Modifying variables
+name = "Bob";
+age = 30;
+// country = "USA"; // ❌ This will cause an error (const cannot be reassigned)
+console.log("Updated Name:", name);
+console.log("Updated Age:", age);
+
