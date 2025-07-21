@@ -1,0 +1,24 @@
+let number = 100;
+let string = "JavaScript";
+let boolean = true;
+let empty = null;
+let notDefined;
+let obj = { key: "value" };
+let symbol = Symbol("id");
+
+console.log(typeof number);     
+console.log(typeof string);     
+console.log(typeof boolean);    
+console.log(typeof empty);      
+console.log(typeof notDefined); 
+console.log(typeof obj);        
+console.log(typeof symbol);    
+
+let str = "123";
+let num = Number(str);          
+let str2 = String(num);        
+let bool = Boolean(str);        
+
+console.log(typeof num, num);
+console.log(typeof str2, str2);
+console.log(typeof bool, bool);
