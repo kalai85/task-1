@@ -1,0 +1,29 @@
+let a = 10;
+let b = 3;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+let x = 5;
+x += 2;
+console.log("x:", x);
+
+console.log(a > b);  // true
+console.log(a < b);  // false
+console.log(a == 10); // true
+console.log(a === '10'); // false
+
+console.log(true && false); // false
+console.log(true || false); // true
+
+let result = (a > b) ? "a is greater" : "b is greater";
+console.log(result);
+console.log(a & b); 
+console.log(a | b); 
+console.log(a ^ b);  
+
+let i = 5;
+console.log(i++); 
+console.log(++i); 
